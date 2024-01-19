@@ -1,0 +1,5 @@
+n1 = input('Digite um número:')
+print('É somente letra?',n1.isalpha())
+print('É letra e número?',n1.isalnum())
+print('Tem somente letra minúscula?',n1.islower())
+#print(type(n1))
